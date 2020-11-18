@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+/* <TAGS> */
+html {
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: hsl(300, 24%, 96%);
+}
+
+/* .CLASSES */
+.container {
+    display: grid;
+    width: 375px;
+    grid-template-columns: 100%;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 8px;
+    box-shadow: 4.2px 4.2px 3.2px gray;
+    overflow: hidden;
+}
+
+.item {
+    padding: 10px 20px;
+}
+
+.item-1 h2{
+    color: rgb(25, 179, 179);
+    padding-bottom: 12px;
+}
+
+.item-1 h3 {
+    color: rgb(175, 202, 23);
+    padding-bottom: 12px;
+}
+
+.item-1 p {
+    color: rgb(160, 158, 158);
+    line-height: -0.8;
+}
+
+.item-2 {
+    background-color: rgb(16, 161, 161);
+    color: rgb(240, 239, 239);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.item-2 h2 {
+    padding-bottom: 12px;
+}
+
+.item-2 p {
+    padding-bottom: 12px;
+}
+
+.item-2 span {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.item-2 a button {
+    width: 100%;
+    background-color: rgb(175, 202, 23);
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 8px;
+    box-shadow: 2.2px 2.2px 3.2px black;
+}
+
+.item-2 .per {
+    color: rgb(199, 199, 199);
+}
+
+.item-3 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(25, 179, 179);
+    color: white;
+}
+
+.item-3 h2 {
+    padding-bottom: 8px;
+}
+
+.item-3 p {
+    padding-bottom: 8px;
+}
